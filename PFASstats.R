@@ -1,6 +1,6 @@
 library(ggplot2)
 library(readxl)
-PFAS <- read_excel("UBC/Masters/Data/PFAS/PFAS redone.xlsx",sheet = "cont")
+PFAS <- read_excel("PFASdata.xlsx",sheet = "Processed")
 
 # [PFAS] vs Year ----------------------------------------------------------
 
